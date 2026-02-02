@@ -1,135 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Solar System - Image Map</title>
 </head>
 
 <body>
 
-  <h2 align="center">Solar System - Image Map</h2>
+<h2 align="center">Solar System - Image Map</h2>
 
-  <center>
-    <table cellpadding="10">
-      <tr>
+<center>
 
-        <td align="center">
-          <img src="sun.jpg" usemap="#sun" width="120" height="120">
-          <p>Sun</p>
-        </td>
+<!-- IMPORTANT: Do NOT resize this image -->
+<img src="solar" usemap="#solarmap" width="1152" height="448" alt="Solar System">
 
-        <td align="center">
-          <img src="mercury.jpg" usemap="#mercury" width="120" height="120">
-          <p>Mercury</p>
-        </td>
+<map name="solarmap">
 
-        <td align="center">
-          <img src="venus.jpg" usemap="#venus" width="120" height="120">
-          <p>Venus</p>
-        </td>
+  <!-- SUN -->
+  <area shape="circle" coords="135,225,105" href="#sun" title="Sun" alt="Sun">
 
-        <td align="center">
-          <img src="earth.jpg" usemap="#earth" width="120" height="120">
-          <p>Earth</p>
-        </td>
+  <!-- MERCURY -->
+  <area shape="circle" coords="285,225,18" href="#mercury" title="Mercury" alt="Mercury">
 
-        <td align="center">
-          <img src="mars.jpg" usemap="#mars" width="120" height="120">
-          <p>Mars</p>
-        </td>
+  <!-- VENUS -->
+  <area shape="circle" coords="340,225,22" href="#venus" title="Venus" alt="Venus">
 
-        <td align="center">
-          <img src="jupiter.jpg" usemap="#jupiter" width="120" height="120">
-          <p>Jupiter</p>
-        </td>
+  <!-- EARTH -->
+  <area shape="circle" coords="400,225,24" href="#earth" title="Earth" alt="Earth">
 
-        <td align="center">
-          <img src="saturn.jpg" usemap="#saturn" width="120" height="120">
-          <p>Saturn</p>
-        </td>
+  <!-- MARS -->
+  <area shape="circle" coords="455,225,22" href="#mars" title="Mars" alt="Mars">
 
-        <td align="center">
-          <img src="uranus.jpg" usemap="#uranus" width="120" height="120">
-          <p>Uranus</p>
-        </td>
+  <!-- JUPITER -->
+  <area shape="circle" coords="550,225,42" href="#jupiter" title="Jupiter" alt="Jupiter">
 
-        <td align="center">
-          <img src="neptune.jpg" usemap="#neptune" width="120" height="120">
-          <p>Neptune</p>
-        </td>
+  <!-- SATURN -->
+  <area shape="circle" coords="680,225,38" href="#saturn" title="Saturn" alt="Saturn">
 
-      </tr>
-    </table>
-  </center>
+  <!-- URANUS -->
+  <area shape="circle" coords="805,225,28" href="#uranus" title="Uranus" alt="Uranus">
 
-  <!-- Image Maps -->
+  <!-- NEPTUNE -->
+  <area shape="circle" coords="900,225,28" href="#neptune" title="Neptune" alt="Neptune">
 
-  <map name="sun">
-    <area shape="rect" coords="0,0,500,500" href="#sun">
-  </map>
+</map>
 
-  <map name="mercury">
-    <area shape="rect" coords="0,0,500,500" href="#mercury">
-  </map>
+</center>
 
-  <map name="venus">
-    <area shape="rect" coords="0,0,500,500" href="#venus">
-  </map>
+<hr>
 
-  <map name="earth">
-    <area shape="rect" coords="0,0,500,500" href="#earth">
-  </map>
+<h3 id="sun">Sun</h3>
+<p>The Sun is the star at the center of the solar system.</p>
 
-  <map name="mars">
-    <area shape="rect" coords="0,0,500,500" href="#mars">
-  </map>
+<h3 id="mercury">Mercury</h3>
+<p>Mercury is the smallest planet and closest to the Sun.</p>
 
-  <map name="jupiter">
-    <area shape="rect" coords="0,0,500,500" href="#jupiter">
-  </map>
+<h3 id="venus">Venus</h3>
+<p>Venus is the hottest planet.</p>
 
-  <map name="saturn">
-    <area shape="rect" coords="0,0,500,500" href="#saturn">
-  </map>
+<h3 id="earth">Earth</h3>
+<p>Earth is the only planet known to support life.</p>
 
-  <map name="uranus">
-    <area shape="rect" coords="0,0,500,500" href="#uranus">
-  </map>
+<h3 id="mars">Mars</h3>
+<p>Mars is called the Red Planet.</p>
 
-  <map name="neptune">
-    <area shape="rect" coords="0,0,500,500" href="#neptune">
-  </map>
+<h3 id="jupiter">Jupiter</h3>
+<p>Jupiter is the largest planet in the solar system.</p>
 
-  <hr>
+<h3 id="saturn">Saturn</h3>
+<p>Saturn is famous for its ring system.</p>
 
-  <!-- Information Section -->
+<h3 id="uranus">Uranus</h3>
+<p>Uranus rotates on its side.</p>
 
-  <h2 id="sun">Sun</h2>
-  <p>The Sun is a star at the center of the solar system and provides heat and light to all planets.</p>
-
-  <h3 id="mercury">Mercury</h3>
-  <p>Mercury is the smallest and closest planet to the Sun.</p>
-
-  <h3 id="venus">Venus</h3>
-  <p>Venus is the hottest planet and is called Earth's twin.</p>
-
-  <h3 id="earth">Earth</h3>
-  <p>Earth is the only planet known to support life.</p>
-
-  <h3 id="mars">Mars</h3>
-  <p>Mars is called the Red Planet.</p>
-
-  <h3 id="jupiter">Jupiter</h3>
-  <p>Jupiter is the largest planet in the solar system.</p>
-
-  <h3 id="saturn">Saturn</h3>
-  <p>Saturn is famous for its ring system.</p>
-
-  <h3 id="uranus">Uranus</h3>
-  <p>Uranus rotates on its side and is called an ice giant.</p>
-
-  <h3 id="neptune">Neptune</h3>
-  <p>Neptune is the farthest planet from the Sun.</p>
+<h3 id="neptune">Neptune</h3>
+<p>Neptune is the farthest planet from the Sun.</p>
 
 </body>
 </html>
